@@ -119,6 +119,7 @@ button:focus, input:focus, input, button {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: rgba(204, 204, 204, 255);
+    margin-bottom: 16px;
 }
 .header__btn {
     background-color: #f5821f;
