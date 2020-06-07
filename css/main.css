@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+}
+body {
+    font-size: 16px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    transition: all .3s linear;
+}
+
+/* HEADER */
+.header {
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 57px;
+    width: 249px;
+}
+.btn {
+    background-color: rgb(201, 64, 64);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-style: solid;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: rgb(224, 97, 97);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 26px;
+    padding-right: 26px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgb(242, 242, 242);
+    margin-top: 16px;
+}
+
+/* END:HEADER */
+
+main {
+    min-height: 100vh;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+/* END:FOOTER */
