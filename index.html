@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" href="./images/rel-icon.png">
     <link href="./css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
     <link type="text/css" rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -90,16 +91,559 @@
         </div>
     </header>
     <main id="main">
-        <section>
-            <div class="conatiner">
-                <div class="row">
+        <section class="catalog">
+            <div class="catalog__bg-left"></div>
+            <div class="catalog__bg-right"></div>
+            <div class="container">
+                <div class="catalog__head">
+                    <h2 class="catalog__title">МАШИНЫ НАШИХ КЛИЕНТОВ</h2>
+                    <p class="catalog__description">
+                        Это автомобили, которые мы привезли для наших клиентов из США. Если у вас будут вопросы, звоните нам, наши менеджеры с удовольствием расскажут вам все детали
+                    </p>
                 </div>
+                <ul class="catalog__list">
+                    <li class="catalog__car">
+                        <img src="./images/catalog-1.png" alt="catalog">
+                        <div class="car_text">
+                            <h3 class="car_title">Volkswagen Passat B7 2018</h3>
+                            <ul class="car__list">
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто в Украине</span>
+                                    <span class="car__item_val">15 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто из США</span>
+                                    <span class="car__item_val">10 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок доставки авто </span>
+                                    <span class="car__item_val">1,5 мес.</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок ремонта авто  </span>
+                                    <span class="car__item_val">1 нед.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="car__btn">Подробнее</button>
+                    </li>
+                    <li class="catalog__car">
+                        <img src="./images/catalog-2.png" alt="catalog">
+                        <div class="car_text">
+                            <h3 class="car_title">Volkswagen Passat B7 2018</h3>
+                            <ul class="car__list">
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто в Украине</span>
+                                    <span class="car__item_val">15 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто из США</span>
+                                    <span class="car__item_val">10 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок доставки авто </span>
+                                    <span class="car__item_val">1,5 мес.</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок ремонта авто  </span>
+                                    <span class="car__item_val">1 нед.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="car__btn">Подробнее</button>
+                    </li>
+                    <li class="catalog__car">
+                        <img src="./images/catalog-3.png" alt="catalog">
+                        <div class="car_text">
+                            <h3 class="car_title">Volkswagen Passat B7 2018</h3>
+                            <ul class="car__list">
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто в Украине</span>
+                                    <span class="car__item_val">15 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто из США</span>
+                                    <span class="car__item_val">10 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок доставки авто </span>
+                                    <span class="car__item_val">1,5 мес.</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок ремонта авто  </span>
+                                    <span class="car__item_val">1 нед.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="car__btn">Подробнее</button>
+                    </li>
+                    <li class="catalog__car">
+                        <img src="./images/catalog-1.png" alt="catalog">
+                        <div class="car_text">
+                            <h3 class="car_title">Volkswagen Passat B7 2018</h3>
+                            <ul class="car__list">
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто в Украине</span>
+                                    <span class="car__item_val">15 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто из США</span>
+                                    <span class="car__item_val">10 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок доставки авто </span>
+                                    <span class="car__item_val">1,5 мес.</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок ремонта авто  </span>
+                                    <span class="car__item_val">1 нед.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="car__btn">Подробнее</button>
+                    </li>
+                    <li class="catalog__car">
+                        <img src="./images/catalog-2.png" alt="catalog">
+                        <div class="car_text">
+                            <h3 class="car_title">Volkswagen Passat B7 2018</h3>
+                            <ul class="car__list">
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто в Украине</span>
+                                    <span class="car__item_val">15 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто из США</span>
+                                    <span class="car__item_val">10 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок доставки авто </span>
+                                    <span class="car__item_val">1,5 мес.</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок ремонта авто  </span>
+                                    <span class="car__item_val">1 нед.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="car__btn">Подробнее</button>
+                    </li>
+                    <li class="catalog__car">
+                        <img src="./images/catalog-3.png" alt="catalog">
+                        <div class="car_text">
+                            <h3 class="car_title">Volkswagen Passat B7 2018</h3>
+                            <ul class="car__list">
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто в Украине</span>
+                                    <span class="car__item_val">15 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто из США</span>
+                                    <span class="car__item_val">10 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок доставки авто </span>
+                                    <span class="car__item_val">1,5 мес.</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок ремонта авто  </span>
+                                    <span class="car__item_val">1 нед.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="car__btn">Подробнее</button>
+                    </li>
+                    <li class="catalog__car">
+                        <img src="./images/catalog-1.png" alt="catalog">
+                        <div class="car_text">
+                            <h3 class="car_title">Volkswagen Passat B7 2018</h3>
+                            <ul class="car__list">
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто в Украине</span>
+                                    <span class="car__item_val">15 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто из США</span>
+                                    <span class="car__item_val">10 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок доставки авто </span>
+                                    <span class="car__item_val">1,5 мес.</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок ремонта авто  </span>
+                                    <span class="car__item_val">1 нед.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="car__btn">Подробнее</button>
+                    </li>
+                    <li class="catalog__car">
+                        <img src="./images/catalog-2.png" alt="catalog">
+                        <div class="car_text">
+                            <h3 class="car_title">Volkswagen Passat B7 2018</h3>
+                            <ul class="car__list">
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто в Украине</span>
+                                    <span class="car__item_val">15 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто из США</span>
+                                    <span class="car__item_val">10 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок доставки авто </span>
+                                    <span class="car__item_val">1,5 мес.</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок ремонта авто  </span>
+                                    <span class="car__item_val">1 нед.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="car__btn">Подробнее</button>
+                    </li>
+                    <li class="catalog__car">
+                        <img src="./images/catalog-3.png" alt="catalog">
+                        <div class="car_text">
+                            <h3 class="car_title">Volkswagen Passat B7 2018</h3>
+                            <ul class="car__list">
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто в Украине</span>
+                                    <span class="car__item_val">15 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Стоимость авто из США</span>
+                                    <span class="car__item_val">10 000$</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок доставки авто </span>
+                                    <span class="car__item_val">1,5 мес.</span>
+                                </li>
+                                <li class="car__item">
+                                    <span class="car__item_title">Срок ремонта авто  </span>
+                                    <span class="car__item_val">1 нед.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="car__btn">Подробнее</button>
+                    </li>
+                </ul>
+                <button class="catalog__btn">Смотреть больше автомобилей</button>
+            </div>
+        </section>
+        <section class="wanted">
+            <div class="container">
+                <div class="wanted__block">
+                    <h1 class="header__tilte">
+                        <span class="header__title-bold">Хотите крутое авто</span>
+                        из сша за разумные деньги?
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <section class="form__block">
+            <div class="container">
+                <form class="form" action="">
+                    <h2 class="form__title">Обращайтесь к нам</h2>
+                    <div class="form__control">
+                        <input type="text" name="name" placeholder="Имя">
+                        <input type="text" id="phone" name="phone" placeholder="Телефон">
+                    </div>
+                    <div class="form__control">
+                        <label><input type="checkbox" name="Viber">Viber</label>
+                        <label><input type="checkbox" name="Telegram">Telegram</label>
+                        <label><input type="checkbox" name="Whatsapp">Whatsapp</label>
+                        <input type="text" name="Email" id="email" placeholder="Email">
+                    </div>
+                    <button class="form__submit" type="submit">Заказать консультацию</button>
+                </form>
+            </div>
+        </section>
+        <section class="plus">
+            <div class="container">
+                <h2 class="plus__title">ПОЧЕМУ СТОИТ ЗАКАЗАТЬ У НАС</h2>
+                <p class="plus__text">
+                    Наша компания обеспечит вам отличную возможность по выбору машины на любой из самых популярных
+                    и востребованных торговых площадках, и возьмет на себя полную ответственность за оформление документов,
+                    быструю доставку и передачу авто вам вместе с необходимой документацией!
+                </p>
+                <ul class="row plus__list">
+                    <li class="plus__item col-lg-4">
+                        <div class="plus__item_icon-wrap">
+                            <img src="./images/plus-icon-1.png" alt="" class="plus__item_icon">
+                        </div>
+                        <h3 class="plus__item_title">Гарантия цены</h3>
+                        <p class="plus__item_text">
+                            На этапе выбора автомобиля вы
+                            получаете всю калькуляцию и знаете все
+                            платежи.
+                        </p>
+                    </li>
+                    <li class="plus__item col-lg-4">
+                        <div class="plus__item_icon-wrap">
+                            <img src="./images/plus-icon-2.png" alt="" class="plus__item_icon">
+                        </div>
+                        <h3 class="plus__item_title">Надежность</h3>
+                        <p class="plus__item_text">
+                            Помощь в выборе автомобиля и
+                            проверка по всем имеющимся базам.
+                            Никаких котов в мешке.
+                        </p>
+                    </li>
+                    <li class="plus__item col-lg-4">
+                        <div class="plus__item_icon-wrap">
+                            <img src="./images/plus-icon-3.png" alt="" class="plus__item_icon">
+                        </div>
+                        <h3 class="plus__item_title">Боле 7 лет опыта</h3>
+                        <p class="plus__item_text">
+                            Большой опыт в
+                            автоиндустрии, подберем именно тот
+                            автомобиль, который вам нужен.
+                        </p>
+                    </li>
+                    <li class="plus__item col-lg-4">
+                        <div class="plus__item_icon-wrap">
+                            <img src="./images/plus-icon-4.png" alt="" class="plus__item_icon">
+                        </div>
+                        <h3 class="plus__item_title">Гарантия сохранности</h3>
+                        <p class="plus__item_text">
+                            Мы даем гарантию на сохранность авто
+                            в пути. Также есть возможность
+                            дополнительной страховки груза.
+                        </p>
+                    </li>
+                    <li class="plus__item col-lg-4">
+                        <div class="plus__item_icon-wrap">
+                            <img src="./images/plus-icon-5.png" alt="" class="plus__item_icon">
+                        </div>
+                        <h3 class="plus__item_title">Полное сопровождение</h3>
+                        <p class="plus__item_text">
+                            Мы гарантируем полное сопровождение
+                            и помощь на каждом этапе сделки от
+                            подбора авто и до постановки авто на учет.
+                        </p>
+                    </li>
+                    <li class="plus__item col-lg-4">
+                        <div class="plus__item_icon-wrap">
+                            <img src="./images/plus-icon-6.png" alt="" class="plus__item_icon">
+                        </div>
+                        <h3 class="plus__item_title">Документы</h3>
+                        <p class="plus__item_text">
+                            Перед покупкой авто мы заключаем
+                            официальный договор, что гарантирует
+                            безопасность и прозрачность сделки.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="worked">
+            <div class="container">
+                <div class="worked__bg"></div>
+                <div class="wroked__wrap">
+                    <div class="worked__description">
+                        <h2 class="worked__title">Как мы работаем</h2>
+                        <p class="worked__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                        <p class="worked__text">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        </p>
+                    </div>
+                    <div class="worked__video">
+                        <iframe 
+                            src="https://www.youtube.com/embed/tElJzGpEdc8" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                        <h2 class="worked__title">Lighthouse - привезем<br> вам самое крутое авто</h2>
+                        <p class="worked__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="container">
+                <h2 class="plus__title">Что люди говорят о нашей компании</h2>
+                <p class="plus__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="about-us__slider">
+                    <li class="feedback">
+                        <div class="feedback__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </div>
+                        <div class="feedback__people">
+                            <img src="./images/avatar.png" alt="avatar" class="feedback__people_img">
+                            <div class="feedback__people_info">
+                                <div class="feedback__people_name">Jeremy H.</div>
+                                <div class="feedback__people_status">Manager</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feedback">
+                        <div class="feedback__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </div>
+                        <div class="feedback__people">
+                            <img src="./images/avatar.png" alt="avatar" class="feedback__people_img">
+                            <div class="feedback__people_info">
+                                <div class="feedback__people_name">Jeremy H.</div>
+                                <div class="feedback__people_status">Freelancer</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feedback">
+                        <div class="feedback__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </div>
+                        <div class="feedback__people">
+                            <img src="./images/avatar.png" alt="avatar" class="feedback__people_img">
+                            <div class="feedback__people_info">
+                                <div class="feedback__people_name">Jeremy H.</div>
+                                <div class="feedback__people_status">Photographer</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feedback">
+                        <div class="feedback__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </div>
+                        <div class="feedback__people">
+                            <img src="./images/avatar.png" alt="avatar" class="feedback__people_img">
+                            <div class="feedback__people_info">
+                                <div class="feedback__people_name">Jeremy H.</div>
+                                <div class="feedback__people_status">Manager</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feedback">
+                        <div class="feedback__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </div>
+                        <div class="feedback__people">
+                            <img src="./images/avatar.png" alt="avatar" class="feedback__people_img">
+                            <div class="feedback__people_info">
+                                <div class="feedback__people_name">Jeremy H.</div>
+                                <div class="feedback__people_status">Freelancer</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feedback">
+                        <div class="feedback__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </div>
+                        <div class="feedback__people">
+                            <img src="./images/avatar.png" alt="avatar" class="feedback__people_img">
+                            <div class="feedback__people_info">
+                                <div class="feedback__people_name">Jeremy H.</div>
+                                <div class="feedback__people_status">Photographer</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="questions">
+            <div class="container">
+                <h2 class="questions__title">Остались вопросы?</h2>
+                <p class="questions__text">Отправьте нам свои контактные данные и мы свяжемся с вами в ближайшее время</p>
+                <button class="questions__btn">Заказать консультацию</button>
             </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container">
+            <div class="row footer__top">
+                <div class="col-lg-3">
+                    <h4 class="footer__list-title">О компании</h4>
+                    <p>Buildwall is a diversified construction company,
+                    made up of teams of people who are
+                    proven in their industries. All working to
+                    design, build, transport, operate, and maintain
+                    projects all over the USA.</p>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="footer__list-title">Аукционы</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#">Copart</a></li>
+                        <li class="footer__item"><a href="#">iaai</a></li>
+                        <li class="footer__item"><a href="#">Manheim</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="footer__list-title">Информация</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#">О нас</a></li>
+                        <li class="footer__item"><a href="#">Растаможка</a></li>
+                        <li class="footer__item"><a href="#">Калькулятор доставки</a></li>
+                        <li class="footer__item"><a href="#">Ремонт авто</a></li>
+                        <li class="footer__item"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="footer__list-title">Контакты</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span>Адрес:</span> 
+                            4578 Marmora Road, Glasgow
+                        </li>
+                        <li class="footer__item">
+                            <span>Телефоны:</span><br>
+                            <a href="tel:+380967777777">+38(096)777 77 77</a><br>
+                            <a href="tel:+380967777777">+38(096)777 77 77</a><br>
+                            <a href="tel:+380967777777">+38(096)777 77 77</a>
+                        </li>
+                        <li class="footer__item">
+                            <span>График работы:</span> 
+                            Пн-Сб: 08:00–18:00</li>
+                        <li class="footer__item">
+                            <span>E-mail:</span> 
+                            <a href="mailto:info@demolink.org">info@demolink.org</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer__bottom">
+                <div class="logo col-lg-4">
+                    <a class="logo__link" href="#">
+                        <img src="./images/logo.png" alt="logotype">
+                    </a>
+                </div>
+                <div class="footer__copyright col-lg-8">
+                    © 2020 LightHouse. Все права защищены.&nbsp;<a href="#" target="_blanck">Политика конфиденциальности >></a>
+                </div>
+            </div>      
+        </div>
     </footer>
     <script src="./js/jquery-3.5.0.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.maskedinput.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
